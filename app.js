@@ -69,7 +69,7 @@ function intervalFunc() {
         console.log(error)
     });
 }
-setInterval(intervalFunc, 1000);
+setInterval(intervalFunc, 100000);
 
 
 // Self call to hosted address to prevent heroku from sleeping
